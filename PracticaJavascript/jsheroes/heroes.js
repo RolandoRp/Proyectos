@@ -1,2 +1,6 @@
+function seleccionarHeroe() {
+
+}
+
 let botonHeroe = document.getElementById("boton-heroes")
-botonHeroe.addEventListener("click")
+botonHeroe.addEventListener("click", seleccionarHeroe)
