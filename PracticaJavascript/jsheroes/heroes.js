@@ -1,1 +1,1 @@
-alert("hola 7u7")
+let botonHeroe = document.getElementById("boton-heroes")
