@@ -12,6 +12,8 @@ function seleccionarHeroe() {
         alert("Tu heroe es Saber")
     } else if (imputshielder.checked) {
         alert("Tu heroe es Shielder")
+    } else if (imputarcher.checked) {
+        alert("Tu heroe es archer")
     }
 }
 
