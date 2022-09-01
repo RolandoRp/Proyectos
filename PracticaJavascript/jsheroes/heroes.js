@@ -7,13 +7,14 @@ function seleccionarHeroe() {
     let imputsaber = document.getElementById("saber")
     let imputshielder = document.getElementById("shielder")
     let imputarcher = document.getElementById("archer")
+    let spanheroejugador = document.getElementById("heroe-jugador")
 
     if (imputsaber.checked) {
-        alert("Tu heroe es Saber")
+        spanheroejugador.innerHTML = "Saber"
     } else if (imputshielder.checked) {
-        alert("Tu heroe es Shielder")
+        spanheroejugador.innerHTML = "Shielder"
     } else if (imputarcher.checked) {
-        alert("Tu heroe es archer")
+        spanheroejugador.innerHTML = "Archer"
     } else {
         alert("Seleccione un heroe")
     }
