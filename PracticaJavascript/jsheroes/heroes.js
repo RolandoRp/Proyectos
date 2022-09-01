@@ -5,9 +5,13 @@ function iniciarJuego() {
 
 function seleccionarHeroe() {
     let imputsaber = document.getElementById("saber")
-    
+    let imputshielder = document.getElementById("shielder")
+    let imputarcher = document.getElementById("archer")
+
     if (imputsaber.checked) {
         alert("Tu heroe es Saber")
+    } else if () {
+        
     }
 }
 
