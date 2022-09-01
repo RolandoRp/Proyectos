@@ -5,7 +5,7 @@ function iniciarJuego() {
 
 function seleccionarHeroe() {
     if (document.getElementById("saber").checked) {
-        
+        alert("Tu heroe es Saber")
     }
 
     alert("Seleccionaste tu Heroe")
