@@ -4,11 +4,11 @@ function iniciarJuego() {
 }
 
 function seleccionarHeroe() {
-    if (document.getElementById("saber").checked) {
+    let imputsaber = document.getElementById("saber")
+    
+    if (imputsaber.checked) {
         alert("Tu heroe es Saber")
     }
-
-    alert("Seleccionaste tu Heroe")
 }
 
 window.addEventListener("load", iniciarJuego)
