@@ -4,7 +4,7 @@ function iniciarJuego() {
 }
 
 function seleccionarHeroe() {
-    let imputsaber = document.getElementById("saber")
+    let imputsaber = document.getElementBy("saber")
     let imputshielder = document.getElementById("shielder")
     let imputarcher = document.getElementById("archer")
     let spanheroejugador = document.getElementById("heroe-jugador")
