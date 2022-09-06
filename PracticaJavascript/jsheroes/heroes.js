@@ -24,9 +24,14 @@ function seleccionarHeroe() {
 
 function seleccionarHeroeEnemigo() {
     let ataqueAleatorio = aleatorio(1,3)
+    let spanheroeenemigo = document.getElementById("heroe-enemigo")
 
     if (ataqueAleatorio == 1) {
-
+        spanheroeenemigo.innerHTML = "Saber"
+    } else if (ataqueAleatorio == 2) {
+        spanheroeenemigo.innerHTML = "Shielder"
+    } else if (ataqueAleatorio == 3) {
+        spanheroeenemigo.innerHTML = "Archer"
     }
 }
 
