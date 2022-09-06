@@ -30,7 +30,7 @@ function seleccionarHeroeEnemigo() {
         spanheroeenemigo.innerHTML = "Saber"
     } else if (ataqueAleatorio == 2) {
         spanheroeenemigo.innerHTML = "Shielder"
-    } else if (ataqueAleatorio == 3) {
+    } else {
         spanheroeenemigo.innerHTML = "Archer"
     }
 }
