@@ -18,10 +18,16 @@ function seleccionarHeroe() {
     } else {
         alert("Seleccione un heroe")
     }
+
+    seleccionarHeroeEnemigo()
 }
 
 function seleccionarHeroeEnemigo() {
+    let ataqueAleatorio = aleatorio(1,3)
 
+    if (ataqueAleatorio == 1) {
+
+    }
 }
 
 function aleatorio(min, max) {
