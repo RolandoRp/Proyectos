@@ -66,3 +66,7 @@ function aleatorio(min, max) {
 }
 
 window.addEventListener("load", iniciarJuego)
+
+//Paladin -> Sword y Shield
+//Knight -> Bow y Sword
+//Hunter -> Shield y Bow
