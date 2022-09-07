@@ -3,6 +3,10 @@ let ataqueJugador
 function iniciarJuego() {
     let botonHeroe = document.getElementById("boton-heroes")
     botonHeroe.addEventListener("click", seleccionarHeroe)
+
+    let botonSword = document.getElementById("boton-sword")
+    let botonShield =
+    let botonBow =
 }
 
 function seleccionarHeroe() {
