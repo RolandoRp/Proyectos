@@ -1,3 +1,5 @@
+let ataqueJugador
+
 function iniciarJuego() {
     let botonHeroe = document.getElementById("boton-heroes")
     botonHeroe.addEventListener("click", seleccionarHeroe)
