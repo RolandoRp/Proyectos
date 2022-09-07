@@ -50,6 +50,14 @@ function ataqueSword () {
     ataqueJugador = "Sword"
 }
 
+function ataqueShield () {
+    ataqueJugador = "Shield"
+}
+
+function ataqueBow () {
+    ataqueJugador = "Bow"
+}
+
 function aleatorio(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
