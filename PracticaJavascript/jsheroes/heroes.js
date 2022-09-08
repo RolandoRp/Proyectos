@@ -48,17 +48,21 @@ function seleccionarHeroeEnemigo() {
 
 function ataqueSword () {
     ataqueJugador = "Sword"
-    alert(ataqueJugador)
+    ataqueEnemigo()
 }
 
 function ataqueShield () {
     ataqueJugador = "Shield"
-    alert(ataqueJugador)
+    ataqueEnemigo()
 }
 
 function ataqueBow () {
     ataqueJugador = "Bow"
-    alert(ataqueJugador)
+    ataqueEnemigo()
+}
+
+function ataqueEnemigo() {
+    
 }
 
 function aleatorio(min, max) {
