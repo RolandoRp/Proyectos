@@ -76,7 +76,8 @@ function ataqueHeroeEnemigo() {
 }
 
 function crearMensaje() {
-
+    let parrafo = document.createElement("p")
+    parrafo.innerHTML = "Tu heroe ataco con Sword, el heroe enemigo ataco con Shield - GANASTE"
 }
 
 function aleatorio(min, max) {
