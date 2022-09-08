@@ -35,12 +35,12 @@ function seleccionarHeroe() {
 }
 
 function seleccionarHeroeEnemigo() {
-    let ataqueAleatorio = aleatorio(1,3)
+    let heroeAleatorio = aleatorio(1,3)
     let spanheroeenemigo = document.getElementById("heroe-enemigo")
 
-    if (ataqueAleatorio == 1) {
+    if (heroeAleatorio == 1) {
         spanheroeenemigo.innerHTML = "Saber"
-    } else if (ataqueAleatorio == 2) {
+    } else if (heroeAleatorio == 2) {
         spanheroeenemigo.innerHTML = "Shielder"
     } else {
         spanheroeenemigo.innerHTML = "Archer"
@@ -63,6 +63,8 @@ function ataqueBow () {
 }
 
 function ataqueHeroeEnemigo() {
+
+    ataqueEnemigo
 
 }
 
