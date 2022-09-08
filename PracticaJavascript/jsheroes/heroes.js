@@ -72,6 +72,11 @@ function ataqueHeroeEnemigo() {
     } else {
         ataqueEnemigo = "Bow"
     }
+    crearMensaje()
+}
+
+function crearMensaje() {
+
 }
 
 function aleatorio(min, max) {
