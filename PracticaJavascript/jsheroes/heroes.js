@@ -76,8 +76,12 @@ function ataqueHeroeEnemigo() {
 }
 
 function crearMensaje() {
+    let sectionMensajes = document.getElementById("mensajes")
+
     let parrafo = document.createElement("p")
     parrafo.innerHTML = "Tu heroe ataco con " + ataqueJugador + "el heroe enemigo ataco con " + ataqueEnemigo
+
+    sectionMensajes.appendChild(parrafo)
 }
 
 function aleatorio(min, max) {
