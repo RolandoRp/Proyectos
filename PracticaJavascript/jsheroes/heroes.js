@@ -1,4 +1,5 @@
 let ataqueJugador
+let ataqueEnemigo
 
 function iniciarJuego() {
     let botonHeroe = document.getElementById("boton-heroes")
@@ -48,21 +49,21 @@ function seleccionarHeroeEnemigo() {
 
 function ataqueSword () {
     ataqueJugador = "Sword"
-    ataqueEnemigo()
+    ataqueHeroeEnemigo()
 }
 
 function ataqueShield () {
     ataqueJugador = "Shield"
-    ataqueEnemigo()
+    ataqueHeroeEnemigo()
 }
 
 function ataqueBow () {
     ataqueJugador = "Bow"
-    ataqueEnemigo()
+    ataqueHeroeEnemigo()
 }
 
-function ataqueEnemigo() {
-    
+function ataqueHeroeEnemigo() {
+
 }
 
 function aleatorio(min, max) {
