@@ -63,7 +63,7 @@ function ataqueBow () {
 }
 
 function ataqueHeroeEnemigo() {
-
+    let ataqueAleatorio = aleatorio(1, 3)
     ataqueEnemigo
 
 }
