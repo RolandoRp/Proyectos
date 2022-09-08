@@ -64,8 +64,14 @@ function ataqueBow () {
 
 function ataqueHeroeEnemigo() {
     let ataqueAleatorio = aleatorio(1, 3)
-    ataqueEnemigo
 
+    if (ataqueAleatorio == 1) {
+        ataqueEnemigo = "Sword"
+    } else if (ataqueAleatorio == 2) {
+        ataqueEnemigo = "Shield"
+    } else {
+        ataqueEnemigo = "Bow"
+    }
 }
 
 function aleatorio(min, max) {
