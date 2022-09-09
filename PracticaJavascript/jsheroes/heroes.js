@@ -78,11 +78,11 @@ function ataqueHeroeEnemigo() {
 function combate() {
     if(ataqueEnemigo == ataqueJugador) {
         resultadoc = "Empate"
-    } else if(ataqueJugador == 1 && ataqueEnemigo == 3) {
+    } else if(ataqueJugador == "Sword" && ataqueEnemigo == "Bow") {
         resultadoc = "Tu Ganas"
-    } else if(ataqueJugador == 2 && ataqueEnemigo == 1) {
+    } else if(ataqueJugador == "Shield" && ataqueEnemigo == "Sword") {
         resultadoc = "Tu Ganas"
-    } else if(ataqueJugador == 3 && ataqueEnemigo == 2) {
+    } else if(ataqueJugador == "Bow" && ataqueEnemigo == "Shield") {
         resultadoc = "Tu Ganas"
     } else {
         resultadoc = "Perdiste"
