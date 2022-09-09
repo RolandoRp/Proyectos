@@ -76,13 +76,13 @@ function ataqueHeroeEnemigo() {
 }
 
 function combate() {
-    if(pc == jugador) {
+    if(ataqueEnemigo == ataqueJugador) {
         resultadoc = "Empate"
-    } else if(jugador == 1 && pc == 3) {
+    } else if(ataqueJugador == 1 && ataqueEnemigo == 3) {
         resultadoc = "Tu Ganas"
-    } else if(jugador == 2 && pc == 1) {
+    } else if(ataqueJugador == 2 && ataqueEnemigo == 1) {
         resultadoc = "Tu Ganas"
-    } else if(jugador == 3 && pc == 2) {
+    } else if(ataqueJugador == 3 && ataqueEnemigo == 2) {
         resultadoc = "Tu Ganas"
     } else {
         resultadoc = "Perdiste"
