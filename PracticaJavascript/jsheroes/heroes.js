@@ -89,11 +89,11 @@ function combate() {
     }
 }
 
-function crearMensaje() {
+function crearMensaje(resultadoc) {
     let sectionMensajes = document.getElementById("mensajes")
 
     let parrafo = document.createElement("p")
-    parrafo.innerHTML = "Tu heroe ataco con " + ataqueJugador + " el heroe enemigo ataco con " + ataqueEnemigo + resultadoc
+    parrafo.innerHTML = "Tu heroe ataco con " + ataqueJugador + " el heroe enemigo ataco con " + ataqueEnemigo + "- " + resultadoc
 
     sectionMensajes.appendChild(parrafo)
 }
