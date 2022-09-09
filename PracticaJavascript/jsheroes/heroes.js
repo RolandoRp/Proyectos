@@ -72,21 +72,23 @@ function ataqueHeroeEnemigo() {
     } else {
         ataqueEnemigo = "Bow"
     }
-    crearMensaje()
+    combate()
 }
 
-if(pc == jugador) {
-    resultadoc = "Empate"
-} else if(jugador == 1 && pc == 3) {
-    resultadoc = "Tu Ganas"
-} else if(jugador == 2 && pc == 1) {
-    resultadoc = "Tu Ganas"
-} else if(jugador == 3 && pc == 2) {
-    resultadoc = "Tu Ganas"
-} else {
-    resultadoc = "Perdiste"
+function combate() {
+    if(pc == jugador) {
+        resultadoc = "Empate"
+    } else if(jugador == 1 && pc == 3) {
+        resultadoc = "Tu Ganas"
+    } else if(jugador == 2 && pc == 1) {
+        resultadoc = "Tu Ganas"
+    } else if(jugador == 3 && pc == 2) {
+        resultadoc = "Tu Ganas"
+    } else {
+        resultadoc = "Perdiste"
+    }
+    alert (resultadoc)
 }
-alert (resultadoc)
 
 function crearMensaje() {
     let sectionMensajes = document.getElementById("mensajes")
