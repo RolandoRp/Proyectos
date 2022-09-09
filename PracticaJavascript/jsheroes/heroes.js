@@ -77,24 +77,23 @@ function ataqueHeroeEnemigo() {
 
 function combate() {
     if(ataqueEnemigo == ataqueJugador) {
-        resultadoc = "Empate"
+        crearMensaje("Empate")
     } else if(ataqueJugador == "Sword" && ataqueEnemigo == "Bow") {
-        resultadoc = "Tu Ganas"
+        crearMensaje("Tu Ganas")
     } else if(ataqueJugador == "Shield" && ataqueEnemigo == "Sword") {
-        resultadoc = "Tu Ganas"
+        crearMensaje("Tu Ganas")
     } else if(ataqueJugador == "Bow" && ataqueEnemigo == "Shield") {
-        resultadoc = "Tu Ganas"
+        crearMensaje("Tu Ganas")
     } else {
-        resultadoc = "Perdiste"
+        crearMensaje("Perdiste")
     }
-    alert (resultadoc)
 }
 
 function crearMensaje() {
     let sectionMensajes = document.getElementById("mensajes")
 
     let parrafo = document.createElement("p")
-    parrafo.innerHTML = "Tu heroe ataco con " + ataqueJugador + " el heroe enemigo ataco con " + ataqueEnemigo
+    parrafo.innerHTML = "Tu heroe ataco con " + ataqueJugador + " el heroe enemigo ataco con " + ataqueEnemigo + resultadoc
 
     sectionMensajes.appendChild(parrafo)
 }
