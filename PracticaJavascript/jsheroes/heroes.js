@@ -39,11 +39,11 @@ function seleccionarHeroeEnemigo() {
     let spanheroeenemigo = document.getElementById("heroe-enemigo")
 
     if (heroeAleatorio == 1) {
-        spanheroeenemigo.innerHTML = "Saber"
+        spanheroeenemigo.innerHTML = "Akai"
     } else if (heroeAleatorio == 2) {
-        spanheroeenemigo.innerHTML = "Shielder"
+        spanheroeenemigo.innerHTML = "Midori"
     } else {
-        spanheroeenemigo.innerHTML = "Archer"
+        spanheroeenemigo.innerHTML = "Aoi"
     }
 }
 
@@ -52,8 +52,8 @@ function ataqueSword () {
     ataqueHeroeEnemigo()
 }
 
-function ataqueShield () {
-    ataqueJugador = "Shield"
+function ataqueAxe () {
+    ataqueJugador = "Axe"
     ataqueHeroeEnemigo()
 }
 
@@ -68,7 +68,7 @@ function ataqueHeroeEnemigo() {
     if (ataqueAleatorio == 1) {
         ataqueEnemigo = "Sword"
     } else if (ataqueAleatorio == 2) {
-        ataqueEnemigo = "Shield"
+        ataqueEnemigo = "Axe"
     } else {
         ataqueEnemigo = "Bow"
     }
@@ -78,11 +78,11 @@ function ataqueHeroeEnemigo() {
 function combate() {
     if(ataqueEnemigo == ataqueJugador) {
         crearMensaje("Empate")
-    } else if(ataqueJugador == "Sword" && ataqueEnemigo == "Bow") {
+    } else if(ataqueJugador == "Sword" && ataqueEnemigo == "Axe") {
         crearMensaje("Tu Ganas")
-    } else if(ataqueJugador == "Shield" && ataqueEnemigo == "Sword") {
+    } else if(ataqueJugador == "Axe" && ataqueEnemigo == "Bow") {
         crearMensaje("Tu Ganas")
-    } else if(ataqueJugador == "Bow" && ataqueEnemigo == "Shield") {
+    } else if(ataqueJugador == "Bow" && ataqueEnemigo == "Sword") {
         crearMensaje("Tu Ganas")
     } else {
         crearMensaje("Perdiste")
