@@ -8,8 +8,8 @@ function iniciarJuego() {
     let botonSword = document.getElementById("boton-sword")
     botonSword.addEventListener("click", ataqueSword)
     
-    let botonShield = document.getElementById("boton-shield")
-    botonShield.addEventListener("click", ataqueShield)
+    let botonAxe = document.getElementById("boton-axe")
+    botonAxe.addEventListener("click", ataqueAxe)
     
     let botonBow = document.getElementById("boton-bow")
     botonBow.addEventListener("click", ataqueBow)
