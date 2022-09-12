@@ -18,15 +18,15 @@ function iniciarJuego() {
 function seleccionarHeroe() {
     let imputakai = document.getElementById("akai")
     let imputmidori = document.getElementById("midori")
-    let imputarcher = document.getElementById("archer")
+    let imputaoi = document.getElementById("aoi")
     let spanheroejugador = document.getElementById("heroe-jugador")
 
     if (imputakai.checked) {
         spanheroejugador.innerHTML = "Akai"
     } else if (imputmidori.checked) {
         spanheroejugador.innerHTML = "Midori"
-    } else if (imputarcher.checked) {
-        spanheroejugador.innerHTML = "Archer"
+    } else if (imputaoi.checked) {
+        spanheroejugador.innerHTML = "Aoi"
     } else {
         alert("Seleccione un heroe")
     }
