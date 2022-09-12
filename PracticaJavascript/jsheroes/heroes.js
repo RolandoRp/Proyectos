@@ -17,14 +17,14 @@ function iniciarJuego() {
 
 function seleccionarHeroe() {
     let imputakai = document.getElementById("akai")
-    let imputshielder = document.getElementById("shielder")
+    let imputmidori = document.getElementById("midori")
     let imputarcher = document.getElementById("archer")
     let spanheroejugador = document.getElementById("heroe-jugador")
 
     if (imputakai.checked) {
         spanheroejugador.innerHTML = "Akai"
-    } else if (imputshielder.checked) {
-        spanheroejugador.innerHTML = "Shielder"
+    } else if (imputmidori.checked) {
+        spanheroejugador.innerHTML = "Midori"
     } else if (imputarcher.checked) {
         spanheroejugador.innerHTML = "Archer"
     } else {
