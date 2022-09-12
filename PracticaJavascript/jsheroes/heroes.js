@@ -16,13 +16,13 @@ function iniciarJuego() {
 }
 
 function seleccionarHeroe() {
-    let imputsaber = document.getElementById("saber")
+    let imputakai = document.getElementById("akai")
     let imputshielder = document.getElementById("shielder")
     let imputarcher = document.getElementById("archer")
     let spanheroejugador = document.getElementById("heroe-jugador")
 
-    if (imputsaber.checked) {
-        spanheroejugador.innerHTML = "Saber"
+    if (imputakai.checked) {
+        spanheroejugador.innerHTML = "Akai"
     } else if (imputshielder.checked) {
         spanheroejugador.innerHTML = "Shielder"
     } else if (imputarcher.checked) {
