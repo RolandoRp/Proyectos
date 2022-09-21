@@ -1,7 +1,7 @@
 let ataqueJugador
 let ataqueEnemigo
-let vidasJugador
-let vidasEnemigo
+let vidasJugador = 5
+let vidasEnemigo = 5
 
 
 function iniciarJuego() {
@@ -92,7 +92,8 @@ function combate() {
         crearMensaje("Tu Ganas")
     } else {
         crearMensaje("Perdiste")
-        spanVidasJugador.innerHTML = 
+        vidasJugador-- 
+        spanVidasJugador.innerHTML = ""
     }
 }
 
