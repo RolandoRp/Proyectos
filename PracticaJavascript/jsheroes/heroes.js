@@ -76,6 +76,9 @@ function ataqueHeroeEnemigo() {
 }
 
 function combate() {
+    let spanVidasJugador = document.getElementById("vidas-jugador")
+    let spanVidasEnemigo = document.getElementById("vidas-enemigo")
+
     if(ataqueEnemigo == ataqueJugador) {
         crearMensaje("Empate")
     } else if(ataqueJugador == "Sword" && ataqueEnemigo == "Axe") {
