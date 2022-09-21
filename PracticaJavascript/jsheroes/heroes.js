@@ -1,5 +1,8 @@
 let ataqueJugador
 let ataqueEnemigo
+let vidasJugador
+let vidasEnemigo
+
 
 function iniciarJuego() {
     let botonHeroe = document.getElementById("boton-heroes")
@@ -89,6 +92,7 @@ function combate() {
         crearMensaje("Tu Ganas")
     } else {
         crearMensaje("Perdiste")
+        spanVidasJugador.innerHTML = 
     }
 }
 
