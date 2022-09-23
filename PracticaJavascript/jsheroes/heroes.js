@@ -83,21 +83,21 @@ function combate() {
     let spanVidasEnemigo = document.getElementById("vidas-enemigo")
 
     if(ataqueEnemigo == ataqueJugador) {
-        crearMensaje("Empate")
+        mensajedeCombate("Empate")
     } else if(ataqueJugador == "Sword" && ataqueEnemigo == "Axe") {
-        crearMensaje("Enemigo pierde 1 punto de vida")
+        mensajedeCombate("Enemigo pierde 1 punto de vida")
         vidasEnemigo-- 
         spanVidasEnemigo.innerHTML = vidasEnemigo
     } else if(ataqueJugador == "Axe" && ataqueEnemigo == "Bow") {
-        crearMensaje("Enemigo pierde 1 punto de vida")
+        mensajedeCombate("Enemigo pierde 1 punto de vida")
         vidasEnemigo-- 
         spanVidasEnemigo.innerHTML = vidasEnemigo
     } else if(ataqueJugador == "Bow" && ataqueEnemigo == "Sword") {
-        crearMensaje("Enemigo pierde 1 punto de vida")
+        mensajedeCombate("Enemigo pierde 1 punto de vida")
         vidasEnemigo-- 
         spanVidasEnemigo.innerHTML = vidasEnemigo
     } else {
-        crearMensaje("Pierdes 1 punto de vida")
+        mensajedeCombate("Pierdes 1 punto de vida")
         vidasJugador-- 
         spanVidasJugador.innerHTML = vidasJugador
     }
@@ -111,6 +111,7 @@ function numeroVidas() {
         
     }
 }
+
 function mensajedeCombate(resultadoc) {
     let sectionMensajes = document.getElementById("mensajes")
 
@@ -120,7 +121,14 @@ function mensajedeCombate(resultadoc) {
     sectionMensajes.appendChild(parrafo)
 }
 
+function mensajedeCombate(resultadoc) {
+    let sectionMensajes = document.getElementById("mensajes")
 
+    let parrafo = document.createElement("p")
+    parrafo.innerHTML = "Tu heroe ataco con " + ataqueJugador + " el heroe enemigo ataco con " + ataqueEnemigo + " - " + resultadoc
+
+    sectionMensajes.appendChild(parrafo)
+}
 
 function aleatorio(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
