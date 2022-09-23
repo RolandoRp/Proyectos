@@ -131,6 +131,15 @@ function mensajeFinal(resultadoF) {
     parrafo.innerHTML = resultadoF
 
     sectionMensajes.appendChild(parrafo)
+
+    let botonSword = document.getElementById("boton-sword")
+    botonSword.disabled = true
+    
+    let botonAxe = document.getElementById("boton-axe")
+    botonAxe.disabled = true
+    
+    let botonBow = document.getElementById("boton-bow")
+    botonBow.disabled = true
 }
 
 function reiniciarJuego() {
