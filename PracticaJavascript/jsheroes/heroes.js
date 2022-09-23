@@ -106,12 +106,12 @@ function combate() {
 
 function numeroVidas() {
     if (vidasEnemigo == 0) {
-        document.write("Has Ganado, Felicidades")
+        
     } else if (vidasJugador == 0) {
-        document.write("Has sido derrotado")
+        
     }
 }
-function crearMensaje(resultadoc) {
+function mensajedeCombate(resultadoc) {
     let sectionMensajes = document.getElementById("mensajes")
 
     let parrafo = document.createElement("p")
