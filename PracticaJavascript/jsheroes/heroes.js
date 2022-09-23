@@ -134,7 +134,7 @@ function mensajeFinal(resultadoF) {
 }
 
 function reiniciarJuego() {
-    
+    location.reload()
 }
 
 function aleatorio(min, max) {
