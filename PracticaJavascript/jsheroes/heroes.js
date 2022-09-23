@@ -101,8 +101,19 @@ function combate() {
         vidasJugador-- 
         spanVidasJugador.innerHTML = vidasJugador
     }
+    numeroVidas()
 }
 
+function numeroVidas() {
+    if (vidasEnemigo == 0) {
+
+    } else if (vidasJugador == 0) {
+
+    } else {
+        
+    }
+
+}
 function crearMensaje(resultadoc) {
     let sectionMensajes = document.getElementById("mensajes")
 
@@ -111,6 +122,8 @@ function crearMensaje(resultadoc) {
 
     sectionMensajes.appendChild(parrafo)
 }
+
+
 
 function aleatorio(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
