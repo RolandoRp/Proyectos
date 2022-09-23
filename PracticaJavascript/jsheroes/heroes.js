@@ -85,19 +85,19 @@ function combate() {
     if(ataqueEnemigo == ataqueJugador) {
         crearMensaje("Empate")
     } else if(ataqueJugador == "Sword" && ataqueEnemigo == "Axe") {
-        crearMensaje("Ganaste el Combate n.n")
+        crearMensaje("Enemigo pierde 1 punto de vida")
         vidasEnemigo-- 
         spanVidasEnemigo.innerHTML = vidasEnemigo
     } else if(ataqueJugador == "Axe" && ataqueEnemigo == "Bow") {
-        crearMensaje("Tu Ganas")
+        crearMensaje("Enemigo pierde 1 punto de vida")
         vidasEnemigo-- 
         spanVidasEnemigo.innerHTML = vidasEnemigo
     } else if(ataqueJugador == "Bow" && ataqueEnemigo == "Sword") {
-        crearMensaje("Tu Ganas")
+        crearMensaje("Enemigo pierde 1 punto de vida")
         vidasEnemigo-- 
         spanVidasEnemigo.innerHTML = vidasEnemigo
     } else {
-        crearMensaje("Perdiste")
+        crearMensaje("Pierdes 1 punto de vida")
         vidasJugador-- 
         spanVidasJugador.innerHTML = vidasJugador
     }
