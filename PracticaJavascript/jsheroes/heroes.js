@@ -85,7 +85,7 @@ function combate() {
     if(ataqueEnemigo == ataqueJugador) {
         crearMensaje("Empate")
     } else if(ataqueJugador == "Sword" && ataqueEnemigo == "Axe") {
-        crearMensaje("Tu Ganas")
+        crearMensaje("Ganaste el Combate n.n")
         vidasEnemigo-- 
         spanVidasEnemigo.innerHTML = vidasEnemigo
     } else if(ataqueJugador == "Axe" && ataqueEnemigo == "Bow") {
