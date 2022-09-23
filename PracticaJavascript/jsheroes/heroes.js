@@ -121,11 +121,11 @@ function mensajedeCombate(resultadoc) {
     sectionMensajes.appendChild(parrafo)
 }
 
-function mensajedeCombate(resultadoc) {
+function mensajeFinal(resultadoF) {
     let sectionMensajes = document.getElementById("mensajes")
 
     let parrafo = document.createElement("p")
-    parrafo.innerHTML = "Tu heroe ataco con " + ataqueJugador + " el heroe enemigo ataco con " + ataqueEnemigo + " - " + resultadoc
+    parrafo.innerHTML = resultadoF
 
     sectionMensajes.appendChild(parrafo)
 }
