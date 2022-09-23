@@ -35,6 +35,7 @@ function seleccionarHeroe() {
         spanheroejugador.innerHTML = "Aoi"
     } else {
         alert("Seleccione un heroe")
+        reiniciarJuego()
     }
 
     seleccionarHeroeEnemigo()
