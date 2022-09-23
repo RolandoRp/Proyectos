@@ -109,10 +109,7 @@ function numeroVidas() {
 
     } else if (vidasJugador == 0) {
 
-    } else {
-        
     }
-
 }
 function crearMensaje(resultadoc) {
     let sectionMensajes = document.getElementById("mensajes")
