@@ -106,9 +106,9 @@ function combate() {
 
 function numeroVidas() {
     if (vidasEnemigo == 0) {
-
+        document.write("Has Ganado, Felicidades")
     } else if (vidasJugador == 0) {
-
+        document.write("Has sido derrotado")
     }
 }
 function crearMensaje(resultadoc) {
