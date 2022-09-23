@@ -17,7 +17,8 @@ function iniciarJuego() {
     let botonBow = document.getElementById("boton-bow")
     botonBow.addEventListener("click", ataqueBow)
 
-    let botonReinicio = document.getElementById("Volver-a-Jugar")
+    let botonReinicio = document.getElementById("boton-vj")
+    botonReinicio.addEventListener("click", reiniciarJuego)
 }
 
 function seleccionarHeroe() {
