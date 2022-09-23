@@ -106,9 +106,9 @@ function combate() {
 
 function numeroVidas() {
     if (vidasEnemigo == 0) {
-        
+        mensajeFinal("La Vitoria es Tuya!!")
     } else if (vidasJugador == 0) {
-        
+        mensajeFinal("Has sido Derrotado")
     }
 }
 
