@@ -8,6 +8,9 @@ function iniciarJuego() {
     let sectionSeleccionarAtaque = document.getElementById("seleccionar-ataque")
     sectionSeleccionarAtaque.style.display = "none"
 
+    let sectionNewGame = document.getElementById("Volver-a-Jugar")
+    sectionNewGame.style.display = "none"
+
 
     let botonHeroe = document.getElementById("boton-heroes")
     botonHeroe.addEventListener("click", seleccionarHeroe)
