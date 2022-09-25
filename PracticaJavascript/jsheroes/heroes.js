@@ -152,6 +152,9 @@ function mensajeFinal(resultadoF) {
     
     let botonBow = document.getElementById("boton-bow")
     botonBow.disabled = true
+
+    let sectionNewGame = document.getElementById("Volver-a-Jugar")
+    sectionNewGame.style.display = "block"
 }
 
 function reiniciarJuego() {
