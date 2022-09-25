@@ -27,6 +27,9 @@ function iniciarJuego() {
 }
 
 function seleccionarHeroe() {
+    let sectionSeleccionarAtaque = document.getElementById("seleccionar-ataque")
+    sectionSeleccionarAtaque.style.display = "block"
+
     let imputakai = document.getElementById("akai")
     let imputmidori = document.getElementById("midori")
     let imputaoi = document.getElementById("aoi")
