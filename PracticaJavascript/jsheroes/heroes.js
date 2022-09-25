@@ -6,6 +6,7 @@ let vidasEnemigo = 5
 
 function iniciarJuego() {
     let sectionSeleccionarAtaque = document.getElementById("seleccionar-ataque")
+    sectionSeleccionarAtaque.stay.display = "none"
 
     let botonHeroe = document.getElementById("boton-heroes")
     botonHeroe.addEventListener("click", seleccionarHeroe)
