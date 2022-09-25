@@ -48,10 +48,6 @@ function seleccionarHeroe() {
         alert("Seleccione un heroe")
         reiniciarJuego()
     }
-    
-    let botonHeroe = document.getElementById("boton-heroes")
-    botonHeroe.disabled = true
-
     seleccionarHeroeEnemigo()
 }
 
