@@ -27,6 +27,9 @@ function iniciarJuego() {
 }
 
 function seleccionarHeroe() {
+    let sectionSeleccionarHeroe = document.getElementById("seleccionar-heroe")
+    sectionSeleccionarHeroe.style.display = "none"
+
     let sectionSeleccionarAtaque = document.getElementById("seleccionar-ataque")
     sectionSeleccionarAtaque.style.display = "block"
 
