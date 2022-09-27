@@ -4,3 +4,7 @@
     height: 50px;
     background-color: rgb(17 30 64 / 46%);
 }
+
+#seleccionar-heroe {
+    display: flex;
+}
