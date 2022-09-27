@@ -7,4 +7,5 @@
 
 #seleccionar-heroe {
     display: flex;
+    flex-direction: column;
 }
