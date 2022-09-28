@@ -13,9 +13,14 @@
 }
 
 .tarjetaHeroes {
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 35px;
     background: #008585;
     padding: 10px;
     box-sizing: border-box;
+    margin: 10px;
+}
+
+input {
+    display: none;
 }
