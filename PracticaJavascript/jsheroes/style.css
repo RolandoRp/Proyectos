@@ -20,6 +20,10 @@
     box-sizing: border-box;
     margin: 10px;
     border: 2px solid #00224a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 input {
