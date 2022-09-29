@@ -1,20 +1,16 @@
-let n1 
+let n1
 let n2 
 let resultado 
 
-function inciarPrograma () {
-    let botonSuma = document.getElementById("suma")
-    botonSuma.addEventListener("click", resultadosuma)
-}
 
 function resultadosuma() {
-    n1 = document.getElementById("n1").value;  
-    n2 = document.getElementById("n2").value;
-    
-    if (suma = parseFloat(n1) + parseFloat(n2)) {
-        resultado = suma
-    } else if (isNaN(n1) || isNaN(n2)) { 
+    n1 = document.getElementById("n1").value
+    n2 = document.getElementById("n2").value
+    suma = parseFloat(n1) + parseFloat(n2)
+    if (isNaN(n1) || isNaN(n2)) {
         resultado = "Es necesarios introducir dos números válidos"
+    } else { 
+        resultado = suma
     }
     document.getElementById("resultado").innerHTML = resultado
 }
@@ -22,13 +18,14 @@ function resultadosuma() {
 function resultadoresta(n1,n2, resultado) {
     n1 = document.getElementById("n1").value;  
     n2 = document.getElementById("n2").value;
-    
-    if (resta = parseFloat(n1) - parseFloat(n2)) {
-        resultado = resta 
-    } else if (n1 == n2) { 
+    resta = parseFloat(n1) - parseFloat(n2)
+    if (parseFloat(n1) == parseFloat(n2)) {
         resultado = 0
-    } else (isNaN(n1) || isNaN(n2))
+    } else if (isNaN(n1) || isNaN(n2)) { 
         resultado = "Es necesarios introducir dos números válidos"
+    } else {
+        resultado = resta
+    }
     document.getElementById("resultado").innerHTML = resultado
 }
 

@@ -11,11 +11,11 @@
     <h1>Calculadora</h1>
     <p>Introduzca dos números:</p>
 
-    <input name= "numero1" id= "n1" /><br>
-    <input name= "numero2" id= "n2" /><br>
+    <input type="number" name= "numero1" id= "n1" /><br>
+    <input type="number" name= "numero2" id= "n2" /><br>
     
     <p>
-    <button id= "suma">+</button>
+    <button onclick = "resultadosuma()" id= "suma">+</button>
     <button type="button" onclick="resultadoresta(n1, n2, resultado)" id = "resta">-</button>
     <button type="button" onclick="resultadomultiplicacion(n1, n2, resultado)">x</button>
     <button type="button" onclick="resultadodivision(n1, n2, resultado)">/</button>
