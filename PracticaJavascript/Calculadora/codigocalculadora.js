@@ -2,6 +2,10 @@ let n1
 let n2 
 let resultado 
 
+function iniciarCalculadora() {
+    let botonSuma = document.getElementById("botonSuma")
+    botonSuma.addEventListener("click", resultadosuma)
+}
 
 function resultadosuma() {
     n1 = document.getElementById("n1").value
@@ -11,7 +15,7 @@ function resultadosuma() {
         resultado = "Es necesarios introducir dos números válidos"
     } else { 
         resultado = suma
-    }
+    } 
     document.getElementById("resultado").innerHTML = resultado
 }
 
