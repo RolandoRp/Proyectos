@@ -1,8 +1,14 @@
-n1
-n2
-resultado
+let n1 
+let n2 
+let resultado 
+
+function inciarPrograma () {
+    let botonSuma = document.getElementById("suma")
+    botonSuma.addEventListener("click", resultadosuma)
+}
 
 function resultadosuma() {
+    //onclick="resultadosuma()"
     n1 = document.getElementById("n1").value;  
     n2 = document.getElementById("n2").value;
     
