@@ -1,11 +1,15 @@
-function resultadosuma(n1,n2, resultado) {
+n1
+n2
+resultado
+
+function resultadosuma() {
     n1 = document.getElementById("n1").value;  
     n2 = document.getElementById("n2").value;
     
-    if (isNaN(n1) || isNaN(n2)) {
-    resultado = "Es necesarios introducir dos números válidos"
-    } else if (suma = parseFloat(n1) + parseFloat(n2)) { 
+    if (suma = parseFloat(n1) + parseFloat(n2)) {
         resultado = suma
+    } else if (isNaN(n1) || isNaN(n2)) { 
+        resultado = "Es necesarios introducir dos números válidos"
     }
     document.getElementById("resultado").innerHTML = resultado
 }
@@ -14,12 +18,12 @@ function resultadoresta(n1,n2, resultado) {
     n1 = document.getElementById("n1").value;  
     n2 = document.getElementById("n2").value;
     
-    if (isNaN(n1) || isNaN(n2)) {
-    resultado = "Es necesarios introducir dos números válidos"
-    } else if (resta = parseFloat(n1) - parseFloat(n2)) { 
-        resultado = resta
-    } else (n1 = n2)
+    if (resta = parseFloat(n1) - parseFloat(n2)) {
+        resultado = resta 
+    } else if (n1 == n2) { 
         resultado = 0
+    } else (isNaN(n1) || isNaN(n2))
+        resultado = "Es necesarios introducir dos números válidos"
     document.getElementById("resultado").innerHTML = resultado
 }
 
