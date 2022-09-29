@@ -2,10 +2,6 @@ let n1
 let n2 
 let resultado 
 
-function iniciarCalculadora() {
-    let botonSuma = document.getElementById("botonSuma")
-    botonSuma.addEventListener("click", resultadosuma)
-}
 
 function resultadosuma() {
     n1 = document.getElementById("n1").value
@@ -20,8 +16,8 @@ function resultadosuma() {
 }
 
 function resultadoresta(n1,n2, resultado) {
-    n1 = document.getElementById("n1").value;  
-    n2 = document.getElementById("n2").value;
+    n1 = document.getElementById("n1").value  
+    n2 = document.getElementById("n2").value
     resta = parseFloat(n1) - parseFloat(n2)
     if (parseFloat(n1) == parseFloat(n2)) {
         resultado = 0
@@ -34,8 +30,8 @@ function resultadoresta(n1,n2, resultado) {
 }
 
 function resultadomultiplicacion(n1,n2, resultado) {
-    n1 = document.getElementById("n1").value;  
-    n2 = document.getElementById("n2").value;
+    n1 = document.getElementById("n1").value 
+    n2 = document.getElementById("n2").value
     
     if (isNaN(n1) || isNaN(n2)) {
     resultado = "Es necesarios introducir dos números válidos"
@@ -46,8 +42,8 @@ function resultadomultiplicacion(n1,n2, resultado) {
 }
 
 function resultadodivision(n1,n2, resultado) {
-    n1 = document.getElementById("n1").value;  
-    n2 = document.getElementById("n2").value;
+    n1 = document.getElementById("n1").value 
+    n2 = document.getElementById("n2").value
     
     if (isNaN(n1) || isNaN(n2)) {
     resultado = "Es necesarios introducir dos números válidos"
