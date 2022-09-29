@@ -8,7 +8,6 @@ function inciarPrograma () {
 }
 
 function resultadosuma() {
-    //onclick="resultadosuma()"
     n1 = document.getElementById("n1").value;  
     n2 = document.getElementById("n2").value;
     
