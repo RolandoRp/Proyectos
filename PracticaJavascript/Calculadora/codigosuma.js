@@ -18,7 +18,8 @@ function resultadoresta(n1,n2, resultado) {
     resultado = "Es necesarios introducir dos números válidos"
     } else if (resta = parseFloat(n1) - parseFloat(n2)) { 
         resultado = resta
-    }
+    } else (n1 = n2)
+        resultado = 0
     document.getElementById("resultado").innerHTML = resultado
 }
 
