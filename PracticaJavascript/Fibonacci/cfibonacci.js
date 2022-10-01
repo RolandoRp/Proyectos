@@ -11,7 +11,7 @@ function fibonacci (numero) {
     let serieF = [0,1]
 
     for(let i = 2; i <= numero; i++) {
-
+        serieF.push(serieF[i - 1] + serieF[i - 2] )
         document.write(i + "<br/>")
     
     }
