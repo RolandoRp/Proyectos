@@ -8,12 +8,10 @@
 
 function fibonacci (numero) {
     let serieF = [0,1]
-}
 
-for(i = 0; i <15; i++) {
-    resultado = n1 + n2
-    n2 = n1
-    n2 = resultado
-    document.write(resultado + "<br/>")
-
+    for(let i = 2; i <15; i++) {
+        
+        document.write(resultado + "<br/>")
+    
+    }
 }
