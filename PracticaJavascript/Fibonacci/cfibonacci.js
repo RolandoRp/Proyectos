@@ -14,6 +14,6 @@ for(i = 0; i <15; i++) {
     resultado = n1 + n2
     n2 = n1
     n2 = resultado
-    document.write(resultado + "<br/>")
+    document.write(resultado)
 
 }
