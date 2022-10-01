@@ -15,4 +15,5 @@ function fibonacci (numero) {
     }
     return [serieF, serieF[numero]]
 }
-document.write("Serie Completa: " + fibonacci (20)[0])
+document.write("Serie Completa: " + fibonacci (20)[0] + "</br>")
+document.write("Resultado Fibonacci: " + fibonacci (10)[1])
