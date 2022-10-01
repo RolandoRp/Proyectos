@@ -11,7 +11,8 @@ function fibonacci (numero) {
 
     for(let i = 2; i <= numero; i++) {
 
-        document.write(resultado + "<br/>")
+        document.write(i)
     
     }
 }
+fibonacci (20)
