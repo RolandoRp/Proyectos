@@ -6,14 +6,14 @@
 //3+5 = 8
 //n2 pasa a ser n1, resultado pasa a ser n2
 
-let n1 = 1
-let n2 = 1
-let resultado = 0
+function fibonacci (numero) {
+    let serieF = [0,1]
+}
 
 for(i = 0; i <15; i++) {
     resultado = n1 + n2
     n2 = n1
     n2 = resultado
-    document.write(resultado)
+    document.write(resultado + "<br/>")
 
 }
