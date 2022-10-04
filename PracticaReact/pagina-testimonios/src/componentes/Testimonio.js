@@ -3,7 +3,9 @@ import React from "react";
 function Testimonio() {
   return (
     <div className="contenedor-testimonio">
-    <img />
+    <img 
+      className="imagen-testimonio"
+      src=""/>
     </div>
   );    
 }
