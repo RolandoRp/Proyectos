@@ -10,7 +10,7 @@ function Testimonio() {
       <div className="contenedor-texto">
         <p className="nombre-servant">Jeanne d'Arc (Alter)</p>
         <p className="clase-servant">Servant clase Avenger</p>
-        <p className="texto-servant"></p>
+        <p className="texto-servant">"If there is a God, surely I will be punished for this."</p>
       </div>
     </div>
   );    
