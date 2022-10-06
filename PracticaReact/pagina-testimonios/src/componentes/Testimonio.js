@@ -8,7 +8,7 @@ function Testimonio() {
         src = {require("../imagenes/JeanneA.jpg")}
         alt = "Imagen Jalter"/>
       <div className="contenedor-texto">
-
+        <p className="nombre-servant"></p>
       </div>
     </div>
   );    
