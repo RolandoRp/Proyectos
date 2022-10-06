@@ -2,9 +2,9 @@ import React from "react";
 
 function Testimonio() {
   return (
-    <div className="contenedor-testimonio">
+    <div className="contenedor-servant">
       <img 
-        className = "imagen-testimonio"
+        className = "imagen-servant"
         src = {require("../imagenes/JeanneA.jpg")}
         alt = "Imagen Jalter"/>
       <div className="contenedor-texto">
