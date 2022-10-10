@@ -24,5 +24,11 @@
 
 .nombre-servant {
     font-size: 1.3rem;
-    
 }
+
+.clase-servant {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
