@@ -11,7 +11,7 @@ export function Testimonio(props) {
       <div className="contenedor-texto">
         <p className="nombre-servant">{props.nombre}</p>
         <p className="clase-servant">{props.claseservant}</p>
-        <p className="texto-servant">{props.frase}</p>
+        <p className="texto-servant">"{props.frase}"</p>
       </div>
     </div>
   );    
