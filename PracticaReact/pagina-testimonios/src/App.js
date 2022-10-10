@@ -10,6 +10,7 @@ function App() {
         nombre = ""
         claseservant = ""
         frase = ""
+        imagen = ""
         />
       </div>
     </div>
