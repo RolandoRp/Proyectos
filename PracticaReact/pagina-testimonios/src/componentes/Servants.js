@@ -1,7 +1,7 @@
 import React from "react";
 import "../Estilos/Servants.css"
 
-export function Testimonio(props) {
+export function Servant(props) {
   return (
     <div className="contenedor-servant">
       <img 
