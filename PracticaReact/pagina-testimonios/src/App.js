@@ -27,7 +27,12 @@ function App() {
         imagen = "Merlin"
         />
 
-        
+        <Servant
+        nombre = "Musashi"
+        claseservant = "Class Saber"
+        frase = "Shinmen Musashi-no-Kami Fujiwara-no-Harunob...!? Sorry, let me start over! Servant Saber, Shinmen Musashi at your service! Make my stay a fun one, Master!"
+        imagen = "Musashi"
+        />
       </div>
     </div>
   );
