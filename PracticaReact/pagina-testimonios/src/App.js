@@ -19,6 +19,15 @@ function App() {
         frase = "Saber, Senji Muramasa. I've answered to your summons. Although I'm only a blacksmith, as a Pseudo-Servant I should be capable enough by imitating samurai's. Hm? What's with that look? It's a face that says I-know-how-it-is while still being surprised...maybe I'm showing up just a bit too early...?"
         imagen = "Muramasa"
         />
+
+        <Servant
+        nombre = "Merlin"
+        claseservant = "Class Caster"
+        frase = "Greetings, Master of Chaldea. I am Merlin. People call me the Mage of Flowers. Just call me Merlin. I don't care for formalities."
+        imagen = "Merlin"
+        />
+
+        
       </div>
     </div>
   );
