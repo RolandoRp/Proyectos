@@ -6,7 +6,7 @@ export function Testimonio(props) {
     <div className="contenedor-servant">
       <img 
         className = "imagen-servant"
-        src = {require("../imagenes/JeanneA.jpg")}
+        src = {require(`../imagenes/Servant-${props.imagen}.jpg`)} //`` comillas invertidas, sirve para colocar codigo dentro de caracteres
         alt = "Imagen Jalter"/>
       <div className="contenedor-texto">
         <p className="nombre-servant">{props.nombre}</p>
