@@ -9,7 +9,9 @@ export function Servant(props) {
         src = {require(`../imagenes/Servant-${props.imagen}.jpg`)} //`` comillas invertidas, sirve para colocar codigo dentro de caracteres
         alt = "Imagen Jalter"/>
       <div className="contenedor-texto">
-        <p className="nombre-servant">{props.nombre}</p>
+        <p className="nombre-servant">
+          <strong>{props.nombre}</strong>
+        </p>
         <p className="clase-servant">{props.claseservant}</p>
         <p className="texto-servant">"{props.frase}"</p>
       </div>
