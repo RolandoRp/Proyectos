@@ -12,7 +12,7 @@ export function Servant(props) {
         <p className="nombre-servant">
           <strong>{props.nombre}</strong>
         </p>
-        <p className="clase-servant">{props.claseservant}</p>
+        <p className="clase-servant">Class <strong>{props.claseservant}</strong></p>
         <p className="texto-servant">"{props.frase}"</p>
       </div>
     </div>
