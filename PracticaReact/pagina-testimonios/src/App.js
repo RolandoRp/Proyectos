@@ -1,5 +1,5 @@
 import './App.css';
-import {Servant} from "./componentes/Servants.js";
+import {Servant} from "./componentes/Servants.jsx";
 
 function App() {
   return (
