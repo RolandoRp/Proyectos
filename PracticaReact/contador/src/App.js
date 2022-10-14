@@ -1,4 +1,5 @@
 import './App.css';
+import fimelogo from "./imagenes/fimelogo.png";
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <div className='logo-contenedor'>
         <img 
           className='logo'
-          src={}
+          src={fimelogo}
           alt="logo de fime"
         />
       </div>
