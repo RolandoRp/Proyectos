@@ -5,7 +5,8 @@ function App() {
     <div className="App">
       <div className='logo-contenedor'>
         <img 
-          className='logo'/>
+          className='logo'
+        />
       </div>
     </div>
   );
