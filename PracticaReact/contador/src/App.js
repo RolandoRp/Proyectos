@@ -6,6 +6,8 @@ function App() {
       <div className='logo-contenedor'>
         <img 
           className='logo'
+          src={}
+          alt="logo de fime"
         />
       </div>
     </div>
