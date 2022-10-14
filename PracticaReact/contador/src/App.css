@@ -24,3 +24,7 @@ html, body {
     justify-content: center;
     margin: 20px;
 }
+
+.logo {
+    height: 250px;
+}
