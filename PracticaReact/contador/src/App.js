@@ -13,7 +13,12 @@ function App() {
         />
 
       <div className='contenedor-contador'>
-        
+        <Boton 
+        texto= "Click suma"
+        BotondeClic= {true}
+        manejarClick= {}/>
+
+        <Boton />
       </div>
       </div>
     </div>
