@@ -8,3 +8,4 @@ function boton({ texto, BotondeClic, manejarClick }) {
       </button>
     );
 }
+export default boton
