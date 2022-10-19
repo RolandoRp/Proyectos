@@ -1,8 +1,8 @@
 import React from "react";
 
-function boton({ texto }) {
+function boton({ texto, BotondeClic }) {
     return (//Sintaxis de desestructuracion
-      <button>
+      <button className={ BotondeClic ? "boton-click" : "boton-reset" }>
         {texto}
       </button>
     );
