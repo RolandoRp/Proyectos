@@ -18,7 +18,10 @@ function App() {
         BotondeClic= {true}
         manejarClick= {}/>
 
-        <Boton />
+        <Boton 
+        texto= "Reset"
+        BotondeClic= {false}
+        manejarClick= {}/>
       </div>
       </div>
     </div>
