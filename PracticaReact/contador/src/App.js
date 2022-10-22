@@ -2,6 +2,11 @@ import './App.css';
 import fimelogo from "./imagenes/fimelogo.png";
 
 function App() {
+
+  const manejarClick = () => {
+
+  }
+
   return (
     <div className="App">
       
