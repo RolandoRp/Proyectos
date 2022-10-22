@@ -1,6 +1,6 @@
 import './App.css';
 import fimelogo from "./imagenes/fimelogo.png";
-import Boton from './componentes/Boton';
+import Boton from "./componentes/Boton.jsx"
 
 
 function App() {
@@ -33,6 +33,7 @@ function App() {
         texto= "Reset"
         BotondeClic= {false}
         manejarClick= {reiniciarContador}/>
+
       </div>
       </div>
     </div>
