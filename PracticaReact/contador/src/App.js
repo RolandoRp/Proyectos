@@ -25,12 +25,12 @@ function App() {
         <Boton 
         texto= "Click suma"
         BotondeClic= {true}
-        manejarClick= {}/>
+        manejarClick= {manejarClick}/>
 
         <Boton 
         texto= "Reset"
         BotondeClic= {false}
-        manejarClick= {}/>
+        manejarClick= {reiniciarContador}/>
       </div>
       </div>
     </div>
