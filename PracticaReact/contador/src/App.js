@@ -4,7 +4,11 @@ import fimelogo from "./imagenes/fimelogo.png";
 function App() {
 
   const manejarClick = () => {
+    console.log("Click");
+  }
 
+  const reiniciarContador = () => {
+    console.log("Reset");
   }
 
   return (
