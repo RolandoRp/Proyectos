@@ -1,5 +1,7 @@
 import './App.css';
 import fimelogo from "./imagenes/fimelogo.png";
+import Boton from './componentes/Boton';
+
 
 function App() {
 
