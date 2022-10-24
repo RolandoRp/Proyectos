@@ -1,9 +1,9 @@
 import React from "react";
 
-function contador() {
+function contador({ numClicks }) {
   return (
     <div className = "contador">
-      
+      {numClicks}
     </div>
   );
 }
