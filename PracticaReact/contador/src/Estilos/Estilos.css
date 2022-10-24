@@ -13,3 +13,7 @@ button {
 button:hover {
     background-color: rgb(13, 124, 13);
 }
+
+.boton-click {
+    background-color: rgb(3, 3, 121);
+}
