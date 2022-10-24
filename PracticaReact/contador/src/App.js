@@ -23,10 +23,11 @@ function App() {
           src={fimelogo}
           alt="logo de fime"
         />
+      </div>
 
       <div className='contenedor-contador'>
         <Boton 
-        texto= "Click suma"
+        texto= "Click"
         BotondeClic= {true}
         manejarClick= {manejarClick}/>
 
@@ -35,7 +36,6 @@ function App() {
         BotondeClic= {false}
         manejarClick= {reiniciarContador}/>
 
-      </div>
       </div>
     </div>
   );
