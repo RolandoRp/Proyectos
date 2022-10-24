@@ -1,8 +1,7 @@
 import './App.css';
-import Boton from "./componentes/Boton.jsx";
+import Boton from "./componentes/Boton";
 import fimelogo from "./imagenes/fimelogo.png";
-
-
+import Contador from "./componentes/contador";
 
 function App() {
 
@@ -25,7 +24,7 @@ function App() {
       </div>
 
       <div className='contenedor-contador'>
-        <Contador numClicks = "5" />
+        <Contador numClicks="5"/>
 
         <Boton 
         texto= "Click"
