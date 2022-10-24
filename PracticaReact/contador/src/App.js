@@ -1,5 +1,5 @@
 import './App.css';
-import Boton from "./componentes/Boton.jsx"
+import Boton from "./componentes/Boton.jsx";
 import fimelogo from "./imagenes/fimelogo.png";
 
 
@@ -21,19 +21,21 @@ function App() {
         <img 
           className='logo'
           src={fimelogo}
-          alt="logo de fime"/>
+          alt="logo de fime" />
       </div>
 
       <div className='contenedor-contador'>
+        <Contador numClicks = "5" />
+
         <Boton 
         texto= "Click"
         BotondeClic= {true}
-        manejarClick= {manejarClick}/>
+        manejarClick= {manejarClick} />
 
         <Boton 
         texto= "Reset"
         BotondeClic= {false}
-        manejarClick= {reiniciarContador}/>
+        manejarClick= {reiniciarContador} />
       </div>
     </div>
   );
