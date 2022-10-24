@@ -21,8 +21,7 @@ function App() {
         <img 
           className='logo'
           src={fimelogo}
-          alt="logo de fime"
-        />
+          alt="logo de fime"/>
       </div>
 
       <div className='contenedor-contador'>
@@ -35,7 +34,6 @@ function App() {
         texto= "Reset"
         BotondeClic= {false}
         manejarClick= {reiniciarContador}/>
-
       </div>
     </div>
   );
