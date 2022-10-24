@@ -17,3 +17,7 @@ button:hover {
 .boton-click {
     background-color: rgb(3, 3, 121);
 }
+
+.boton-reset {
+    background-color: rgb(73, 0, 107);
+}
