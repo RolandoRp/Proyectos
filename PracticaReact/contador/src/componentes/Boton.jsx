@@ -1,7 +1,7 @@
 import React from "react";
 import "../Estilos/Estilos.css";
 
-export function boton({ texto, BotondeClic, manejarClick }) {//props
+function boton({ texto, BotondeClic, manejarClick }) {//props
     return (//Sintaxis de desestructuracion
       <button className={ BotondeClic ? "boton-click" : "boton-reset" } //Clase basada en codicion, operador ternario
        onClick={manejarClick}>
