@@ -1,4 +1,5 @@
 import React from "react";
+import "../Estilos/Estilos.css";
 
 export function boton({ texto, BotondeClic, manejarClick }) {//props
     return (//Sintaxis de desestructuracion
