@@ -2,6 +2,8 @@ import './App.css';
 import Boton from "./componentes/Boton";
 import fimelogo from "./imagenes/fimelogo.png";
 import Contador from "./componentes/contador";
+import { useState } from "react";
+
 
 function App() {
 
