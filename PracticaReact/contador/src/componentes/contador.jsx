@@ -1,4 +1,5 @@
 import React from "react";
+import "../Estilos/estilocontador.css"
 
 function contador({ numClicks }) {
   return (
