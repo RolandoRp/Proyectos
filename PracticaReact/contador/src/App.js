@@ -10,7 +10,7 @@ function App() {
   const [numClicks, setNumClicks] = useState(0);
 
   const manejarClick = () => {
-    console.log("Click");
+    setNumClicks(numClicks++);
   }
 
   const reiniciarContador = () => {
