@@ -7,7 +7,7 @@ import { useState } from "react";
 
 function App() {
 
-  const [numClicks, setNumClicks] =
+  const [numClicks, setNumClicks] = useState(0);
 
   const manejarClick = () => {
     console.log("Click");
