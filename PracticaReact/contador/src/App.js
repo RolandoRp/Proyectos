@@ -6,11 +6,11 @@ import { useState } from "react";
 
 
 function App() {
-
+          //Estado, Funcion
   const [numClicks, setNumClicks] = useState(0);
 
   const manejarClick = () => {
-    setNumClicks(numClicks++);
+    setNumClicks(numClicks+1);
   }
 
   const reiniciarContador = () => {
