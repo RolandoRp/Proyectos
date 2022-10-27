@@ -14,7 +14,7 @@ function App() {
   }
 
   const reiniciarContador = () => {
-    setNumClicks(numClicks );
+    setNumClicks(0);
   }
 
   return (
