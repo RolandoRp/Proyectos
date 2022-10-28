@@ -1,3 +1,6 @@
-.logo-contenedor {
-  
+.App {
+  width: 100%;
+  height: 100vh;
+  padding-top: 10px;
+  background-color: #00ce5d;
 }
