@@ -5,6 +5,10 @@ function App() {
   return (
     <div className= 'App'>
       <div className='logo-contenedor'>
+        <img 
+        src = {}
+        className = 'logo' 
+        />
 
       </div>
     </div>
