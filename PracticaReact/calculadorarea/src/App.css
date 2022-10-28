@@ -3,4 +3,9 @@
   height: 100vh;
   padding-top: 10px;
   background-color: #00ce5d;
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
