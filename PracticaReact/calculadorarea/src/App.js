@@ -7,8 +7,9 @@ function App() {
       <div className='logo-contenedor'>
         <img 
         src = {}
-        className = 'logo' 
-        />
+        className = 'logo'
+        alt='logo' />
+        
 
       </div>
     </div>
