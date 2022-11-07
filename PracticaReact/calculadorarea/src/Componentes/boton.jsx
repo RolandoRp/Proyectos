@@ -1,5 +1,7 @@
 import React from 'react';
 
-function Boton() {
-    
+function Boton(props) {
+    return (
+        <div></div>
+    );
 }
