@@ -1,6 +1,7 @@
-
 import './App.css';
 import fimelogo from './Imagenes/fimelogo.png';
+import Boton from './Componentes/boton';
+
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       </div>
 
       <div className='contenedor-calculadora'>
-        <div className='fila'></div>
+        <div className='fila'>
+          <Boton>1</Boton>
+        </div>
         <div className='fila'></div>
         <div className='fila'></div>
         <div className='fila'></div>
