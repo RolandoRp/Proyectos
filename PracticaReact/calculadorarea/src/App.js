@@ -16,8 +16,9 @@ function App() {
       <div className='contenedor-calculadora'>
         <div className='fila'>
           <Boton>1</Boton>
+          <Boton>2</Boton>
+          <Boton>3</Boton>
           <Boton>+</Boton>
-          <Boton>-</Boton>
         </div>
         <div className='fila'>
           <Boton>2</Boton>
