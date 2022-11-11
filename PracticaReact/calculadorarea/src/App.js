@@ -17,6 +17,7 @@ function App() {
         <div className='fila'>
           <Boton>1</Boton>
           <Boton>+</Boton>
+          <Boton>-</Boton>
         </div>
         <div className='fila'></div>
         <div className='fila'></div>
