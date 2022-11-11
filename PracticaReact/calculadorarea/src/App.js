@@ -20,9 +20,7 @@ function App() {
           <Boton>3</Boton>
           <Boton>+</Boton>
         </div>
-        <div className='fila'>
-          <Boton>2</Boton>
-        </div>
+        <div className='fila'></div>
         <div className='fila'></div>
         <div className='fila'></div>
         <div className='fila'></div>
