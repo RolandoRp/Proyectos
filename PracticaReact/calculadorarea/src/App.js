@@ -2,7 +2,6 @@ import './App.css';
 import fimelogo from './Imagenes/fimelogo.png';
 import Boton from './Componentes/boton';
 
-
 function App() {
   return (
     <div className= 'App'>
