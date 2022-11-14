@@ -26,7 +26,12 @@ function App() {
           <Boton>6</Boton>
           <Boton>-</Boton>
         </div>
-        <div className='fila'></div>
+        <div className='fila'>
+          <Boton>7</Boton>
+          <Boton>8</Boton>
+          <Boton>9</Boton>
+          <Boton>*</Boton>
+        </div>
         <div className='fila'></div>
         <div className='fila'></div>
       </div>
