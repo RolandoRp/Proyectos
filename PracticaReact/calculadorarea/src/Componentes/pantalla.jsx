@@ -1,6 +1,6 @@
 import React from "react";
 
-const Pantalla () => (
+const Pantalla = () => (
     <div className='input'>
     
     </div>
