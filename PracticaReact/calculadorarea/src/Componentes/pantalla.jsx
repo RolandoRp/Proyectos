@@ -1,7 +1,7 @@
 import React from "react";
 
-const Pantalla = () => (
+const Pantalla = ({ input }) => (
     <div className='input'>
-    
+      {input}
     </div>
 );
