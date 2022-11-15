@@ -1,6 +1,7 @@
 import './App.css';
 import fimelogo from './Imagenes/fimelogo.png';
 import Boton from './Componentes/boton';
+import Pantalla from './Componentes/pantalla';
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       </div>
 
       <div className='contenedor-calculadora'>
+        <Pantalla />
+
         <div className='fila'>
           <Boton>1</Boton>
           <Boton>2</Boton>
