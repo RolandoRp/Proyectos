@@ -5,3 +5,4 @@ const Pantalla = ({ input }) => (
       {input}
     </div>
 );
+export default Pantalla;
