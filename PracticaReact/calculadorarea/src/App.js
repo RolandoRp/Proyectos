@@ -2,6 +2,7 @@ import './App.css';
 import fimelogo from './Imagenes/fimelogo.png';
 import Boton from './Componentes/boton';
 import Pantalla from './Componentes/pantalla';
+import botonClear from './Componentes/clear';
 
 function App() {
   return (
@@ -46,7 +47,7 @@ function App() {
         </div>
         
         <div className='fila'>
-
+          <botonClear>C</botonClear>
         </div>
       </div>
 
