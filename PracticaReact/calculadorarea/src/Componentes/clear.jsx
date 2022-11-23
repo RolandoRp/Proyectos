@@ -1,5 +1,7 @@
 import React from 'react';
 
-const botonClear = ({ input }) => (
-	
+const botonClear = (props) => (
+	<div>
+		{props.children}
+	</div>
 )
