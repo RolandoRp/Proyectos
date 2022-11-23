@@ -9,7 +9,6 @@
 	align-items: center;
 	font-weight: bold;
     color: white;
-    
-    border-radius: 50px;
-	
+    border: 2px solid white;
+    cursor: pointer;
 }
