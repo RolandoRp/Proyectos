@@ -6,4 +6,4 @@ const botonClear = (props) => (
 	</div>
 )
 
-export default botonClear
+export default botonClear;
