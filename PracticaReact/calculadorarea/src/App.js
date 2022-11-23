@@ -47,7 +47,7 @@ function App() {
         </div>
         
         <div className='fila'>
-          <botonClear>C</botonClear>
+          <botonClear>clear</botonClear>
         </div>
       </div>
 
