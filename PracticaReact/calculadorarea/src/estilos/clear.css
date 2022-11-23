@@ -13,6 +13,6 @@
     cursor: pointer;
 }
 
-.boton-clear:hover {
+.boton-clear :hover {
     background-color: rgba(93, 9, 172, 0.986);
 }
