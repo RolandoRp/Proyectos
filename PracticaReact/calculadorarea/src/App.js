@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const [input, sertInput] = useState('');
+  const [input, setInput] = useState('');
 
   return (
     <div className= 'App'>
