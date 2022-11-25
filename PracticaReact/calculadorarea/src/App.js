@@ -3,8 +3,12 @@ import fimelogo from './Imagenes/fimelogo.png';
 import Boton from './Componentes/boton';
 import Pantalla from './Componentes/pantalla';
 import BotonClear from './Componentes/clear';
+import { useState } from 'react'; 
 
 function App() {
+
+  const [input, sertInput] = useState('');
+
   return (
     <div className= 'App'>
       
