@@ -10,7 +10,7 @@ function App() {
   const [input, setInput] = useState('');
 
   const agregarInput = valor => {
-    
+    setInput(input + valor);
   }
 
   return (
