@@ -9,6 +9,10 @@ function App() {
 
   const [input, setInput] = useState('');
 
+  const agregarInput = valor => {
+    
+  }
+
   return (
     <div className= 'App'>
       
