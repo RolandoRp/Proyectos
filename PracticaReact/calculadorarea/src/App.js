@@ -27,7 +27,7 @@ function App() {
         <Pantalla input={ input }/>
 
         <div className='fila'>
-          <Boton>1</Boton>
+          <Boton manejarClick = { agregarInput }>1</Boton>
           <Boton>2</Boton>
           <Boton>3</Boton>
           <Boton>+</Boton>
