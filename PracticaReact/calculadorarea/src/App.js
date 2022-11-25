@@ -20,7 +20,7 @@ function App() {
       </div>
 
       <div className='contenedor-calculadora'>
-        <Pantalla />
+        <Pantalla input={ input }/>
 
         <div className='fila'>
           <Boton>1</Boton>
