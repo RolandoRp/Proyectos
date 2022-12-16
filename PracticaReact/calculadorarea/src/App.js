@@ -13,6 +13,10 @@ function App() {
     setInput(input + valor);
   }
 
+  const calcularResultado = () => {
+
+  }
+
   return (
     <div className= 'App'>
       
@@ -48,7 +52,7 @@ function App() {
         </div>
         
         <div className='fila'>
-          <Boton manejarClick = {  }>=</Boton>
+          <Boton manejarClick = { calcularResultado }>=</Boton>
           <Boton manejarClick = { agregarInput }>0</Boton>
           <Boton manejarClick = { agregarInput }>.</Boton>
           <Boton manejarClick = { agregarInput }>/</Boton>
