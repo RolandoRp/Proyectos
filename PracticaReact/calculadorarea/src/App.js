@@ -11,11 +11,11 @@ function App() {
 
   const agregarInput = valor => {
     setInput(input + valor);
-  }
+  };
 
   const calcularResultado = () => {
-
-  }
+    setInput();
+  };
 
   return (
     <div className= 'App'>
