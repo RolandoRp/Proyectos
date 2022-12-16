@@ -21,7 +21,6 @@ function App() {
     } else {
       alert ("Ingrese un valor");
     }
-    
   };
 
   return (
