@@ -11,6 +11,14 @@ html, body {
     margin-top: 15px;
 }
 
+h1 {
+    color: #1b1b32;
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
 .app-tareas {
     display: flex;
     flex-wrap: wrap;
@@ -39,6 +47,5 @@ html, body {
     background-color: #d0d0e5;
     padding: 25px;
     margin: 10px;
-    justify-content: center;
     border-radius: 26px;
 }
