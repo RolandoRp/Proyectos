@@ -11,7 +11,7 @@ function Tarea({ texto }) {
         </div>
 
         <div className='icono-tarea'>
-        <AiOutlineCloseCircle />
+        <AiOutlineCloseCircle className='icono-tarea'/>
         </div>
 
       </div>
