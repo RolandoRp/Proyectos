@@ -1,4 +1,5 @@
 import React from "react";
+import '../estilos/tarea.css'
 
 function Tarea({ texto }) {
     return (
