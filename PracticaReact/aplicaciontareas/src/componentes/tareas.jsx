@@ -1,5 +1,6 @@
 import React from "react";
 import '../estilos/tarea.css'
+import { AiOutlineCloseCircle } from "react-icons/ai"
 
 function Tarea({ texto }) {
     return (
@@ -10,7 +11,7 @@ function Tarea({ texto }) {
         </div>
 
         <div className='icono-tarea'>
-          Eliminar
+        <AiOutlineCloseCircle />
         </div>
 
       </div>
