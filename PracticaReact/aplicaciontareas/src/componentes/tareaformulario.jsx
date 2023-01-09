@@ -1,4 +1,5 @@
 import React from "react";
+import '../estilos/estilotareaf.css'
 
 function tareaFormuladio(props) {
   return (
