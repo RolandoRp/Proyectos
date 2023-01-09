@@ -15,3 +15,5 @@ function tareaFormuladio(props) {
     </form>
   );
 }
+
+export default tareaFormuladio;
