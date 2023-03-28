@@ -12,7 +12,10 @@ function Listadetareas () {
       <div className='tareas-lista-contenedor'>
         {
           tareas.map((tarea) =>
-            <Tarea />
+            <Tarea 
+              texto={tarea.texto}
+              completada={tarea.completada}
+            />
           )
         }
       </div>
