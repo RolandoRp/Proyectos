@@ -4,7 +4,7 @@ import Listadetareas from './componentes/listadetareas';
 
 function App() {
   return (
-    <div className="app-tareas">
+    <div className='app-tareas'>
       <div className='fime-logo-contenedor'>
         <img src={ fimelogo } className='fime-logo' />
       </div>
