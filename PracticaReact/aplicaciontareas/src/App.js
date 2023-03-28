@@ -11,7 +11,7 @@ function App() {
 
       <div className='lista-principal-tareas'>
         <h1>Mis Tareas</h1>
-        <TareaFormulario />
+        
       </div>
     </div>
   );
