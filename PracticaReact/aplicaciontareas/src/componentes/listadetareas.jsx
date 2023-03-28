@@ -2,7 +2,7 @@ import React from "react";
 import TareaFormulario from "./Tareaformulario";
 import '../estilos/listadetareas.css';
 
-function listadetareas () {
+function Listadetareas () {
   return (
     <>
       <TareaFormulario />
@@ -13,4 +13,4 @@ function listadetareas () {
   );
 }
 
-export default listadetareas;
+export default Listadetareas;
