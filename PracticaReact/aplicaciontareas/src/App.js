@@ -1,6 +1,6 @@
 import './App.css';
 import fimelogo from './imagenes/fimelogo.png';
-import TareaFormulario from './componentes/tareaformulario'
+import TareaFormulario from './componentes/Tareaformulario';
 
 function App() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import '../estilos/estilotareaf.css'
+import '../estilos/TareaFormulario.css';
 
 function TareaFormulario(props) {
   return (
