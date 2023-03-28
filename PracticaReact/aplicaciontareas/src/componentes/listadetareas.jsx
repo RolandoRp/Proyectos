@@ -1,5 +1,6 @@
 import React from "react";
 import TareaFormulario from "./Tareaformulario";
+import '../estilos/listadetareas.css';
 
 function listadetareas () {
   return (
