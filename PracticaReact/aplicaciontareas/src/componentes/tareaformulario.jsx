@@ -12,7 +12,9 @@ function TareaFormulario(props) {
         name='texto'
       />
 
-      <button className='boton-tarea'>Agregar Tarea</button>
+      <button className='boton-tarea'>
+        Agregar Tarea
+        </button>
     </form>
   );
 }
