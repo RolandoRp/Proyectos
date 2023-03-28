@@ -4,13 +4,17 @@ import '../estilos/listadetareas.css';
 
 function Listadetareas () {
 
-  const [tareas, setTareas] =
+  const [tareas, setTareas] = useState([]);
 
   return (
     <>
       <TareaFormulario />
       <div className='tareas-lista-contenedor'>
-        Lista de tareas
+        {
+          tareas.map((tarea) =>
+            <Tarea />
+          )
+        }
       </div>
     </>
   );
