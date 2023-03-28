@@ -1,6 +1,6 @@
 import './App.css';
 import fimelogo from './imagenes/fimelogo.png';
-import Tarea from './componentes/tareas'
+import TareaFormulario from './componentes/tareas'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
 
       <div className='lista-principal-tareas'>
         <h1>Mis Tareas</h1>
-        <Tarea />
+        <TareaFormulario />
       </div>
     </div>
   );

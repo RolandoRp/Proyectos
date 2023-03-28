@@ -1,7 +1,7 @@
 import React from "react";
 import '../estilos/estilotareaf.css'
 
-function tareaFormuladio(props) {
+function TareaFormulario(props) {
   return (
 
     <form className='tarea-formulario'>
@@ -17,4 +17,4 @@ function tareaFormuladio(props) {
   );
 }
 
-export default tareaFormuladio;
+export default TareaFormulario;
