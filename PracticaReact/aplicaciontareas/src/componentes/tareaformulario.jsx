@@ -3,17 +3,17 @@ import '../estilos/TareaFormulario.css';
 
 function TareaFormulario(props) {
   
-  const [imput , setInput] = useState()
+  const [imput , setInput] = useState('');
   
   const manejarCambio = e => {
-     
+     console.log('hola...');
   }
   
   
   const manejarEnvio = e => {
     const tareaNueva = {
       id: '654654',
-      texto: 
+      texto: 'hola'
     }
   }
   
