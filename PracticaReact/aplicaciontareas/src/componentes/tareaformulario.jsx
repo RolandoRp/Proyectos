@@ -28,7 +28,7 @@ function TareaFormulario(props) {
         type='text'
         placeholder='Escribe una tarea'
         name='texto'
-        onchange={manejarCambio}
+        onChange={manejarCambio}
       />
 
       <button className='boton-tarea'>
