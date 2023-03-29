@@ -4,7 +4,10 @@ import '../estilos/TareaFormulario.css';
 function TareaFormulario(props) {
   
   const manejarEnvio = e => {
-    
+    const tareaNueva = {
+      id: '654654',
+      texto: 
+    }
   }
   
   return (
