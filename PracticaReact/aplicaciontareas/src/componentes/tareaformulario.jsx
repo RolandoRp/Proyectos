@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import '../estilos/TareaFormulario.css';
 
 function TareaFormulario(props) {
+  
+  const manejarCambio = e => {
+     
+  }
+  
   
   const manejarEnvio = e => {
     const tareaNueva = {
