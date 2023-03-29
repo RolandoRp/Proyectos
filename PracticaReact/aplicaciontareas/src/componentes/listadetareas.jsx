@@ -7,7 +7,7 @@ function Listadetareas () {
 
   const [tareas, setTareas] = useState([]);
 
-  const agregarTarea = tarea => {
+  const agregarTarea = Tarea => {
     console.log("Tarea agregada");
     console.log(Tarea);
   }
