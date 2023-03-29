@@ -3,6 +3,8 @@ import '../estilos/TareaFormulario.css';
 
 function TareaFormulario(props) {
   
+  const [imput , setInput] = useState()
+  
   const manejarCambio = e => {
      
   }
