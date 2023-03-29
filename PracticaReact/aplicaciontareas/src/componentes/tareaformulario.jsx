@@ -2,6 +2,11 @@ import React from "react";
 import '../estilos/TareaFormulario.css';
 
 function TareaFormulario(props) {
+  
+  const manejarEnvio = e => {
+    
+  }
+  
   return (
 
     <form className='tarea-formulario'>
