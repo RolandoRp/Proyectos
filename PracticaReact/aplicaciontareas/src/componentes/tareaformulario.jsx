@@ -3,14 +3,15 @@ import '../estilos/TareaFormulario.css';
 
 function TareaFormulario(props) {
   
-  const [imput , setInput] = useState('');
+  const [input , setInput] = useState('');
   
   const manejarCambio = e => {
-     setInput(e.targer.value);
+     setInput(e.target.value);
   }
   
   
   const manejarEnvio = e => {
+    e.preventDefault();
     const tareaNueva = {
       id: '654654',
       texto: 'hola'
