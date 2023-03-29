@@ -6,7 +6,7 @@ function TareaFormulario(props) {
   const [imput , setInput] = useState('');
   
   const manejarCambio = e => {
-     console.log('hola...');
+     setInput(e.targer.value);
   }
   
   
@@ -25,6 +25,7 @@ function TareaFormulario(props) {
         type='text'
         placeholder='Escribe una tarea'
         name='texto'
+        onchange={manejarCambio}
       />
 
       <button className='boton-tarea'>
