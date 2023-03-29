@@ -19,7 +19,9 @@ function TareaFormulario(props) {
   
   return (
 
-    <form className='tarea-formulario'>
+    <form 
+    className='tarea-formulario'
+    onSubmit={manejarEnvio}>
       <imput
         className='tarea-input'
         type='text'
