@@ -12,6 +12,7 @@ function TareaFormulario(props) {
   
   const manejarEnvio = e => {
     e.preventDefault();
+    console.log("guenas...")
     const tareaNueva = {
       id: '654654',
       texto: 'hola'
