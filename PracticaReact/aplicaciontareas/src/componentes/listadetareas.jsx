@@ -8,8 +8,9 @@ function Listadetareas () {
   const [tareas, setTareas] = useState([]);
 
   const agregarTarea = Tarea => {
-    console.log("Tarea agregada");
-    console.log(Tarea);
+    if (Tarea.texto.trim()) {
+      Tarea.texto= Tarea.texto.trim();
+    }
   }
 
   return (
