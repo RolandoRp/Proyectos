@@ -19,6 +19,8 @@ function TareaFormulario(props) {
       texto: input,
       completada: false
     }
+
+    props.onSubmit(tareaNueva);
   }
   
   return (
