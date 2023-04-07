@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import TareaFormulario from './Tareaformulario';
-import Tarea from './tarea';
+import Tarea from './Tarea';
 import '../estilos/listadetareas.css';
 
 function Listadetareas () {
