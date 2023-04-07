@@ -10,7 +10,6 @@ function Listadetareas () {
   const agregarTarea = Tarea => {
     if (Tarea.texto.trim()) {
       Tarea.texto= Tarea.texto.trim();
-      
       const tareasActualizadas = [Tarea, ...tareas];
       setTareas(tareasActualizadas);
     }
@@ -22,7 +21,9 @@ function Listadetareas () {
       <div className='tareas-lista-contenedor'>
         {
           tareas.map((tarea) =>
-            <Tarea 
+            <Tarea
+              key={tarea.id}
+              id={tarea.id}
               texto={tarea.texto}
               completada={tarea.completada}
             />
