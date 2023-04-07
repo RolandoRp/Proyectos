@@ -9,8 +9,8 @@ function Listadetareas () {
 
   const agregarTarea = tarea => {
     if (tarea.texto.trim()) {
-      Tarea.texto= Tarea.texto.trim();
-      const tareasActualizadas = [Tarea, ...tareas];
+      tarea.texto= tarea.texto.trim();
+      const tareasActualizadas = [tarea, ...tareas];
       setTareas(tareasActualizadas);
     }
   }
@@ -20,12 +20,12 @@ function Listadetareas () {
       <TareaFormulario onSubmit={agregarTarea}/>
       <div className='tareas-lista-contenedor'>
         {
-          tareas.map((Tarea) =>
+          tareas.map((tarea) =>
             <Tarea
-              key={Tarea.id}
-              id={Tarea.id}
-              texto={Tarea.texto}
-              completada={Tarea.completada}
+              key={tarea.id}
+              id={tarea.id}
+              texto={tarea.texto}
+              completada={tarea.completada}
             />
           )
         }
