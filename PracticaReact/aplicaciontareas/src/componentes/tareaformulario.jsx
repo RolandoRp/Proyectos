@@ -15,7 +15,7 @@ function TareaFormulario(props) {
     e.preventDefault();
 
     const tareaNueva = {
-      id: '654654',
+      id: uuidv4(),
       texto: input,
       completada: false
     }
