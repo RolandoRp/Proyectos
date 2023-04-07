@@ -6,7 +6,9 @@ function App() {
   return (
     <div className='app-tareas'>
       <div className='fime-logo-contenedor'>
-        <img src={ fimelogo } className='fime-logo' />
+        <img 
+        src={ fimelogo } 
+        className='fime-logo' />
       </div>
 
       <div className='lista-principal-tareas'>
