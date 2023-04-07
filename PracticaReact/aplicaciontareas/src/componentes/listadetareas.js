@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import TareaFormulario from './Tareaformulario';
-import Tarea from './Tarea';
-import '../estilos/listadetareas.css';
+import Tarea from './tarea.js';
+import '../estilos/ListaDeTareas.css';
 
-function Listadetareas () {
+function ListaDeTareas () {
 
   const [tareas, setTareas] = useState([]);
 
@@ -34,4 +34,4 @@ function Listadetareas () {
   );
 }
 
-export default Listadetareas;
+export default ListaDeTareas;

@@ -1,6 +1,6 @@
 import './App.css';
 import fimelogo from './imagenes/fimelogo.png';
-import Listadetareas from './componentes/listadetareas';
+import ListaDeTareas from './componentes/ListaDeTareas';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
 
       <div className='lista-principal-tareas'>
         <h1>Mis Tareas</h1>
-        <Listadetareas />
+        <ListaDeTareas />
       </div>
     </div>
   );
