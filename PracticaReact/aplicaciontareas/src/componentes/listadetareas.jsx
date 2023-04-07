@@ -12,6 +12,7 @@ function Listadetareas () {
       Tarea.texto= Tarea.texto.trim();
       
       const tareasActualizadas = [Tarea, ...tareas];
+      setTareas(tareasActualizadas);
     }
   }
 
