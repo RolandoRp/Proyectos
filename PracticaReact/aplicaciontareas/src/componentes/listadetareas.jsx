@@ -10,6 +10,8 @@ function Listadetareas () {
   const agregarTarea = Tarea => {
     if (Tarea.texto.trim()) {
       Tarea.texto= Tarea.texto.trim();
+      
+      const tareasActualizadas = [Tarea, ...tareas];
     }
   }
 
