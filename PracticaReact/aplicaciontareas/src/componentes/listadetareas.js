@@ -27,6 +27,7 @@ function Listadetareas () {
       }
       return tarea;
     });
+    setTareas(tareasActualizadas);
   }
 
   return (
@@ -40,6 +41,7 @@ function Listadetareas () {
               id={tarea.id}
               texto={tarea.texto}
               completada={tarea.completada}
+              completarTarea={completarTarea}
               eliminarTarea={eliminarTarea}/>
           )
         }
