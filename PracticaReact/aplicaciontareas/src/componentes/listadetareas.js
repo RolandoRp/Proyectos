@@ -20,6 +20,15 @@ function Listadetareas () {
     setTareas(tareasActualizadas);
   }
 
+  const completarTarea = id => {
+    const tareasActualizadas = tareas.map(tarea => {
+      if (tarea.id === id) {
+        tarea.completada = !tarea.completada;
+      }
+      return tarea;
+    });
+  }
+
   return (
     <>
       <TareaFormulario onSubmit={agregarTarea}/>
