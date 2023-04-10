@@ -15,6 +15,10 @@ function Listadetareas () {
     }
   }
 
+  const eliminarTarea = id => {
+    
+  }
+
   return (
     <>
       <TareaFormulario onSubmit={agregarTarea}/>
