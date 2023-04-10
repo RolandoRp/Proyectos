@@ -31,7 +31,7 @@ function Listadetareas () {
               id={tarea.id}
               texto={tarea.texto}
               completada={tarea.completada}
-            />
+              eliminarTarea={eliminarTarea}/>
           )
         }
       </div>
