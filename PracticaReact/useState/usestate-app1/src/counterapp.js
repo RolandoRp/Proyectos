@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const counterApp = () => {
+const CounterApp = () => {
+  const {counter, setCounter} = useState(0);
   return (
     <div>
-        <h1>counterApp</h1>
+      <h1>CounterApp</h1>
     </div>
   )
 }
 
-export default counterApp
+export default CounterApp

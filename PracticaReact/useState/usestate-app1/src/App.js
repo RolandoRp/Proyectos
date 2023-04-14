@@ -1,12 +1,11 @@
 import React from "react";
-import counterApp from "./counterapp";
+import CounterApp from "./counterapp";
 
 
 function App() {
   return (
     <div>
-      <h1>App</h1>
-      <counterApp
+      <CounterApp />
     </div>
   );
 }
