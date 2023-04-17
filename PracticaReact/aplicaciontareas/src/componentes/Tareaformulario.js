@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import '../estilos/TareaFormulario.css';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -28,7 +28,7 @@ function TareaFormulario(props) {
     <form 
     className='tarea-formulario'
     onSubmit={manejarEnvio}>
-      <imput
+      <input
         className='tarea-input'
         type='text'
         placeholder='Escribe una tarea'
