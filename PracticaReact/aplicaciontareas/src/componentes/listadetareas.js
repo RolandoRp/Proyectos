@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import TareaFormulario from './Tareaformulario';
-import Tarea from './tarea.js';
+import Tarea from './tarea';
 import '../estilos/listadetareas.css';
 
 function Listadetareas () {
@@ -9,7 +9,7 @@ function Listadetareas () {
 
   const agregarTarea = tarea => {
     if (tarea.texto.trim()) {
-      tarea.texto= tarea.texto.trim();
+      tarea.texto = tarea.texto.trim();
       const tareasActualizadas = [tarea, ...tareas];
       setTareas(tareasActualizadas);
     }
