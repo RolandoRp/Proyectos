@@ -10,7 +10,7 @@ const CounterApp = () => {
   const decrement = () =>{
     setCounter(counter-1)
   }
-  
+
   return (
     <div>
       <button onClick={increment}>
