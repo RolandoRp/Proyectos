@@ -1,12 +1,12 @@
 import React from "react";
 // import CounterApp from "./counterapp";
-import conditionApp from '.conditionApp';
+import conditionApp from './conditionApp';
 
 function App() {
   return (
     <div>
-      {/* <CounterApp />*/}
-      <conditionApp/>
+      {/* <CounterApp /> */}
+      <conditionApp />
     </div>
   );
 }
