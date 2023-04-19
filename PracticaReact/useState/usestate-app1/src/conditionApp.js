@@ -1,11 +1,11 @@
 import React from 'react'
 
-const conditionApp = () => {
+const ConditionApp = () => {
   return (
     <div>
-      <h1>condition App</h1>
+      <h1>ConditionApp</h1>
     </div>
   )
 }
 
-export default conditionApp
+export default ConditionApp
